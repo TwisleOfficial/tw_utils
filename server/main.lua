@@ -69,5 +69,6 @@ Citizen.CreateThread(function()                          -- Version Check
 		end
 	end
 
-	PerformHttpRequest("https://raw.githubusercontent.com/TwisleOfficial/tw_utils/main/version", checkVersion, "GET")
+	PerformHttpRequest("https://raw.githubusercontent.com/TwisleOfficial/tw_utils/refs/heads/main/version", checkVersion,
+	"GET")
 end)
