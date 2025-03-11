@@ -10,11 +10,16 @@ shared_script {
 }
 
 client_script {
+	'client/main.lua',
     'client/*.lua'
 }
 
 server_scripts {
     'server/*.lua',
+}
+
+files {
+	'version'
 }
 
 lua54 'yes'
